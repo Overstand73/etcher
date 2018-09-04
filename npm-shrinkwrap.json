@@ -1340,8 +1340,7 @@
     },
     "big.js": {
       "version": "3.2.0",
-      "resolved": "https://registry.npmjs.org/big.js/-/big.js-3.2.0.tgz",
-      "dev": true
+      "resolved": "https://registry.npmjs.org/big.js/-/big.js-3.2.0.tgz"
     },
     "binary": {
       "version": "0.3.0",
@@ -2906,8 +2905,7 @@
     },
     "emojis-list": {
       "version": "2.1.0",
-      "resolved": "https://registry.npmjs.org/emojis-list/-/emojis-list-2.1.0.tgz",
-      "dev": true
+      "resolved": "https://registry.npmjs.org/emojis-list/-/emojis-list-2.1.0.tgz"
     },
     "encoding": {
       "version": "0.1.12",
@@ -4981,8 +4979,7 @@
     },
     "loader-utils": {
       "version": "1.1.0",
-      "resolved": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.1.0.tgz",
-      "dev": true
+      "resolved": "https://registry.npmjs.org/loader-utils/-/loader-utils-1.1.0.tgz"
     },
     "locate-path": {
       "version": "2.0.0",
@@ -7664,6 +7661,36 @@
       "version": "1.2.2",
       "resolved": "https://registry.npmjs.org/sax/-/sax-1.2.2.tgz"
     },
+    "schema-utils": {
+      "version": "0.4.7",
+      "resolved": "https://registry.npmjs.org/schema-utils/-/schema-utils-0.4.7.tgz",
+      "dependencies": {
+        "ajv": {
+          "version": "6.5.3",
+          "resolved": "https://registry.npmjs.org/ajv/-/ajv-6.5.3.tgz"
+        },
+        "ajv-keywords": {
+          "version": "3.2.0",
+          "resolved": "https://registry.npmjs.org/ajv-keywords/-/ajv-keywords-3.2.0.tgz"
+        },
+        "fast-deep-equal": {
+          "version": "2.0.1",
+          "resolved": "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-2.0.1.tgz"
+        },
+        "json-schema-traverse": {
+          "version": "0.4.1",
+          "resolved": "https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz"
+        },
+        "punycode": {
+          "version": "2.1.1",
+          "resolved": "https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz"
+        },
+        "uri-js": {
+          "version": "4.2.2",
+          "resolved": "https://registry.npmjs.org/uri-js/-/uri-js-4.2.2.tgz"
+        }
+      }
+    },
     "scss-tokenizer": {
       "version": "0.2.3",
       "resolved": "https://registry.npmjs.org/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz",
@@ -8165,6 +8192,10 @@
       "version": "2.2.1",
       "resolved": "https://registry.npmjs.org/striptags/-/striptags-2.2.1.tgz",
       "dev": true
+    },
+    "style-loader": {
+      "version": "0.23.0",
+      "resolved": "https://registry.npmjs.org/style-loader/-/style-loader-0.23.0.tgz"
     },
     "styled-components": {
       "version": "3.2.3",

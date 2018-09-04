@@ -43,11 +43,22 @@ const commonConfig = {
         use: {
           loader: 'html-loader'
         }
+      },
+      {
+        test: /\.scss$/,
+        include: [ path.resolve(__dirname, 'lib/gui/app') ],
+        loader: [
+          'style-loader',
+          'css-loader'
+        ]
       }
     ]
   },
   resolve: {
-    extensions: [ '.js', '.jsx', '.json' ]
+    extensions: [ '.js', '.jsx', '.json' ],
+    modules: [
+      'node_modules'
+    ]
   },
   plugins: [
     new SimpleProgressWebpackPlugin({
